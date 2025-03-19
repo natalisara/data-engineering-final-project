@@ -1,0 +1,19 @@
+# Python-ის cache ფაილები
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# გარემოს ცვლადები და კონფიგურაციები
+.env
+*.json
+
+# Terraform & Terragrunt cache
+.terraform/
+.terragrunt-cache/
+
+# AWS ინფორმაცია
+.aws/
+
+terragrunt/env/dev/
+

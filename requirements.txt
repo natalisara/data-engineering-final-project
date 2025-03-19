@@ -1,0 +1,5 @@
+pandas
+pyarrow
+fastparquet
+boto3
+openpyxl
