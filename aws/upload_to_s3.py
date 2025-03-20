@@ -1,13 +1,16 @@
 import boto3
-import os
 import sys
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 sys.stdout.reconfigure(encoding='utf-8')
 
-# AWS კონფიგურაცია (მოითხოვს AWS Access Key-ს!)
-AWS_ACCESS_KEY = "AKIAWCYYAG34FY4TYQRW"
-AWS_SECRET_KEY = "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"
+# AWS გასაღებების წამოღება
+AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_SECRET_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 AWS_REGION = "eu-north-1"
+
 
 # S3 Bucket-ების სახელები
 BUCKETS = {

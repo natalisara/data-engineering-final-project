@@ -3,3 +3,4 @@ pyarrow
 fastparquet
 boto3
 openpyxl
+python-dotenv

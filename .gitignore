@@ -17,3 +17,4 @@ __pycache__/
 
 terragrunt/env/dev/
 
+create_s3_buckets.py
